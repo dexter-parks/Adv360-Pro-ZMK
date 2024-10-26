@@ -13,13 +13,13 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPSLOCK>;
+            bindings = <&skq LEFT_SHIFT>, <&kp CAPSLOCK>;
         };
         td2: tap_dance_rshift_caps {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
+            bindings = <&skq RSHIFT>, <&kp CAPSLOCK>;
         };
     };
 };
